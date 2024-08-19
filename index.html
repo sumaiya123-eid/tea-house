@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea-house</title>
+
+    <!-- font-awesome -->
+
+
     <script src="https://kit.fontawesome.com/55d84a2faa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- font-manrope -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- tailwind cdn -->
+
+
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font-style -->
+
+
+      <style>
+        .manrope{
+            font-family:"Manrope", sans-serif;
+        }
+      </style>
 </head>
-<body>
+<body class="manrope">
+
+    <!-- banner-section -->
+
+
     <header class="max-w-screen-2xl mx-auto p-6">
         <div class="md:flex items-center justify-around">
             <div>
@@ -30,10 +58,13 @@
                     <p class="text-[#777777]">Trust Pilot Ratings</p>
                 </div>
             </div>
-        </div>
-            
+        </div>          
     </header>
     <main>
+
+        <!-- featured-product section -->
+
+
           <section class="max-w-screen-xl mx-auto text-center mt-20 p-6">
             <h2 class="text-5xl font-extrabold text-[#1C1C1C]">Our Featured Products</h2>
             <p class="text-lg font-medium text-[#777777] mt-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -60,6 +91,10 @@
                 </div>
             </div>
           </section>
+
+          <!-- great-tea section -->
+
+
           <section class="max-w-screen-xl mx-auto mt-20">
             <div class="p-6 md:flex items-center gap-10">
                 <div class="grid grid-cols-2 grid-rows-3 gap-6">
@@ -80,6 +115,10 @@
                 </div>
             </div>
           </section>
+
+          <!-- super-client section -->
+
+
           <section class="max-w-screen-xl mx-auto mt-20 bg-gradient-to-r from-[#FF0000] to-[#FF8938]">
         <div class="p-4 md:flex items-center justify-around">
             <div class="md:w-5/12">
@@ -121,25 +160,29 @@
     </div>
         </div>
           </section>
+
+          <!-- news-events section -->
+
+
           <section class="max-w-screen-xl mx-auto mt-20">
             <h2 class="text-5xl font-extrabold text-[#1C1C1C] text-center">News & Events</h2>
             <p class="text-lg font-medium text-[#777777] mt-6 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-            <div class="p-5 grid grid-cols-1 md:grid md:grid-cols-3 gap-8">
-                <div class="border border-[#D2D2D2] rounded-lg py-4 px-12">
-                    <img class="mx-auto w-fit" src="./images/news-1.png" alt="">
+            <div class="p-5 grid grid-cols-1 md:grid md:grid-cols-3">
+                <div class="border border-[#D2D2D2] rounded-lg py-5 px-5 mx-auto">
+                    <img class="" src="./images/news-1.png" alt="">
                     <p class="text-base text-[#777777] font-me mb-3 mt-3">Feb 05, 2027</p>
                     <h4 class="text-xl text-[#1C1C1C] font-extrabold mt-4">Collecting 8 points for <br> discount</h4>
                     <p class="text-base text-[#777777] font-me mb-3 mt-3">There are many variations of passages <br> of Lorem Ipsum available.</p>
                     <p class="text-base text-[#1C1C1C] font-me font-extrabold  mb-3 mt-3">Learn More</p>
                 </div>
-                <div class="border border-[#D2D2D2] rounded-lg py-4 px-12">
+                <div class="border border-[#D2D2D2] rounded-lg py-5 px-5 mx-auto">
                     <img class="mx-auto w-fit" src="./images/news-2.png" alt="">
                     <p class="text-base text-[#777777] font-me mb-3 mt-3">Feb 05, 2027</p>
                     <h4 class="text-xl text-[#1C1C1C] font-extrabold mt-4">Collecting 8 points for <br> discount</h4>
                     <p class="text-base text-[#777777] font-me mb-3 mt-3">There are many variations of passages <br> of Lorem Ipsum available.</p>
                     <p class="text-base text-[#1C1C1C] font-me font-extrabold  mb-3 mt-3">Learn More</p>
                 </div>
-                <div class="border border-[#D2D2D2] rounded-lg py-4 px-12">
+                <div class="border border-[#D2D2D2] rounded-lg py-5 px-5 mx-auto">
                     <img class="mx-auto w-fit" src="./images/news-3.png" alt="">
                     <p class="text-base text-[#777777] mb-3 mt-3">Feb 05, 2027</p>
                     <h4 class="text-xl text-[#1C1C1C] font-extrabold mt-4">Collecting 8 points for <br> discount</h4>
@@ -149,6 +192,10 @@
             </div>
           </section>
     </main>
+
+    <!-- footer section -->
+
+
     <footer class=" bg-gradient-to-r from-red-200 to-red-50">
     <div class="px-10 py-10 md:flex md:items-center md:justify-between md:px-20 md:pt-20">
         <img src="./images/cup.png" alt="">
@@ -197,5 +244,7 @@
     </div>
     <div class="text-center py-20 text-base font-medium text-[#494949]">© 2027 UIDesign.to - All rights reserved.</div>
     </footer>
+
+
 </body>
 </html>
